@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load render_table from django_tables2 %}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>География</title>
+    <h1><a href="{% url 'base' %}">назад</a></h1>
+</head>
+<body>
+ГЕОГРАФИЯ
+<img src="./media/piechart.png" />
+<p>Табличный вид данных для всех вакансий</p>
+ {% render_table table %} 
+ <p>Табличный вид данных для профессии</p>
+{% render_table table2 %}
+</body>
+</html>

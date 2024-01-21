@@ -1,33 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6c0d0e7-a76c-40ec-a5c3-d15d4d89442a" name="Changes" comment="" />
+    <list default="true" id="e6c0d0e7-a76c-40ec-a5c3-d15d4d89442a" name="Changes" comment="попытка&#10;3" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2ar0b6Xrh2WRRMIl7D6hLsIDckH" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Django Server.djangoProject.executor": "Run",
+    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "django.template.preview.state": "SHOW_EDITOR",
+    "git-widget-placeholder": "branch1",
+    "last_opened_file_path": "C:/Users/danil/PycharmProjects/djangoProject/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\danil\PycharmProjects\djangoProject\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\danil\PycharmProjects\djangoProject\static" />
+      <recent name="C:\Users\danil\PycharmProjects\djangoProject\img" />
+      <recent name="C:\Users\danil\PycharmProjects\djangoProject\resources" />
+      <recent name="C:\Users\danil\PycharmProjects\djangoProject" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="djangoProject" type="Python.DjangoServer" factoryName="Django server">
+      <module name="djangoProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="djangoProject.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="localhost" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -43,8 +113,80 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1705061460841</updated>
-      <workItem from="1705061529050" duration="6000" />
+      <workItem from="1705061529050" duration="804000" />
+      <workItem from="1705155254212" duration="1468000" />
+      <workItem from="1705250198497" duration="11276000" />
+      <workItem from="1705338470456" duration="588000" />
+      <workItem from="1705393414607" duration="5386000" />
+      <workItem from="1705399696052" duration="8987000" />
+      <workItem from="1705421561561" duration="3916000" />
+      <workItem from="1705506026356" duration="21386000" />
+      <workItem from="1705746906251" duration="13186000" />
+      <workItem from="1705764275520" duration="1593000" />
+      <workItem from="1705837965816" duration="1060000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1705061655583</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1705061655583</updated>
+    </task>
+    <task id="LOCAL-00002" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1705061734253</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1705061734253</updated>
+    </task>
+    <task id="LOCAL-00003" summary="коммит со всем что я сделал на 21 января. маршрутизация и вкладки география и востребованность">
+      <option name="closed" value="true" />
+      <created>1705838077686</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1705838077686</updated>
+    </task>
+    <task id="LOCAL-00004" summary="коммит со всем что я сделал на 21 января. маршрутизация и вкладки география и востребованность">
+      <option name="closed" value="true" />
+      <created>1705838411321</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1705838411321</updated>
+    </task>
+    <task id="LOCAL-00005" summary="попытка&#10;3">
+      <option name="closed" value="true" />
+      <created>1705838694779</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1705838694779</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="коммит со всем что я сделал на 21 января. маршрутизация и вкладки география и востребованность" />
+    <MESSAGE value="попытка&#10;3" />
+    <option name="LAST_COMMIT_MESSAGE" value="попытка&#10;3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/djangoProject/asgi.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
