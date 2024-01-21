@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6c0d0e7-a76c-40ec-a5c3-d15d4d89442a" name="Changes" comment="попытка&#10;3" />
+    <list default="true" id="e6c0d0e7-a76c-40ec-a5c3-d15d4d89442a" name="Changes" comment="попытка&#10;8">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,6 +32,20 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "CerafimD"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="0ad62613-d868-48c3-9ad2-3b816dcd93ee" />
+        <option name="url" value="https://github.com/CerafimD/PythonDjprjct" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -49,7 +66,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "django.template.preview.state": "SHOW_EDITOR",
-    "git-widget-placeholder": "branch1",
+    "git-widget-placeholder": "Rebasing jjj",
     "last_opened_file_path": "C:/Users/danil/PycharmProjects/djangoProject/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -165,18 +182,50 @@
       <option name="project" value="LOCAL" />
       <updated>1705838694779</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="попытка&#10;8">
+      <option name="closed" value="true" />
+      <created>1705841270202</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1705841270202</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="branch1" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="initial commit" />
-    <MESSAGE value="коммит со всем что я сделал на 21 января. маршрутизация и вкладки география и востребованность" />
     <MESSAGE value="попытка&#10;3" />
-    <option name="LAST_COMMIT_MESSAGE" value="попытка&#10;3" />
+    <MESSAGE value="коммит со всем что я сделал на 21 января. маршрутизация и вкладки география и востребованность" />
+    <MESSAGE value="попытка&#10;8" />
+    <option name="LAST_COMMIT_MESSAGE" value="попытка&#10;8" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
