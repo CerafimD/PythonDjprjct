@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6c0d0e7-a76c-40ec-a5c3-d15d4d89442a" name="Changes" comment="9">
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+    <list default="true" id="e6c0d0e7-a76c-40ec-a5c3-d15d4d89442a" name="Changes" comment="комит для нового сайта">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoProject/create_bargraph.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject/create_bargraph.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoProject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/djangoProject/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -200,7 +200,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705845197516</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="комит для нового сайта">
+      <option name="closed" value="true" />
+      <created>1705848392014</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1705848392014</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,7 +244,8 @@
     <MESSAGE value="коммит со всем что я сделал на 21 января. маршрутизация и вкладки география и востребованность" />
     <MESSAGE value="попытка&#10;8" />
     <MESSAGE value="9" />
-    <option name="LAST_COMMIT_MESSAGE" value="9" />
+    <MESSAGE value="комит для нового сайта" />
+    <option name="LAST_COMMIT_MESSAGE" value="комит для нового сайта" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

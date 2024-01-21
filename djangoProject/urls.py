@@ -17,7 +17,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
-from djangoProject.views import index_page, index_years,index_geography,piechart
+from djangoProject.views import index_page, index_years,index_geography
 from django.conf import settings
 from django.conf.urls.static import static
 
@@ -25,7 +25,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', index_page, name='base'),
     path('востребованность',index_years,name="demand"),
-    path('geography',index_geography,name="geography"),
-    path('pie',piechart,name='piechart')
+    path('geography',index_geography,name="geography")
 ]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
