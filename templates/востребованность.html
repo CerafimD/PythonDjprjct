@@ -7,14 +7,14 @@
 <head>
     <meta charset="UTF-8">
     <title>Востребованность</title>
-    
+
    <h1> <a href="{% url 'base' %}">назад</a></h1>
 </head>
 <body>
-    
-<img src="./media/barchart.png" >
+<img src="{% static 'barchart.png' %}" alt="barchart"/>
+
 <p>Табличный вид данных для всех вакансий</p>
- {% render_table table %} 
+ {% render_table table %}
  <p>Табличный вид данных для профессии</p>
 {% render_table table2 %}
 ВОСТРЕБОВАННОСТЬ

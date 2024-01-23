@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-q53jpd@$3yk($2=tsaseu$9l)k8l+&pb&zc!n!-ju2vqca72b6
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['cerafimdd.pythonanywhere.com']
 
 
 # Application definition

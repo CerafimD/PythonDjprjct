@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+{% load static %}
 <html lang="en">
 {% load render_table from django_tables2 %}
 <head>
@@ -9,9 +10,9 @@
 </head>
 <body>
 ГЕОГРАФИЯ
-<img src="./media/piechart.png" />
+<img src="{% static 'piechart.png' %}" />
 <p>Табличный вид данных для всех вакансий</p>
- {% render_table table %} 
+ {% render_table table %}
  <p>Табличный вид данных для профессии</p>
 {% render_table table2 %}
 </body>
