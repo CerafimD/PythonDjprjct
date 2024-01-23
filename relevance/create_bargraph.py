@@ -1,13 +1,13 @@
 import sqlite3
+from collections import Counter
 
-import numpy as np
 import pandas as pd
 # from matplotlib import pyplot as plt
 
 
 def create_bargraph(filename):
-    wage_amount_all = download_from_db('hello_wage_amount_by_years_all')
-    wage_amount_name = download_from_db('hello_wage_amount_by_years')
+     wage_amount_all = download_from_db('hello_wage_amount_by_years_all')
+    # wage_amount_name = download_from_db('hello_wage_amount_by_years')
     # breakpoint()
 
     # wage_by_year_by_name = count_wage_by_value(vacancies_by_name, "published_at")
@@ -53,3 +53,26 @@ def download_from_db(table_name):
     df = pd.read_sql_query(f'SELECT * FROM {table_name}', conn)
     conn.close()
     return df
+
+
+def count_wage_by_value(vacanciesname, value):
+    vacanciesname = vacanciesname[~vacanciesname.salary.isnull()]
+    vacancies_years = (
+        vacanciesname.groupby(value)["salary"].mean().astype(int).to_frame().sort_values(by="published_at",
+                                                                                         ascending=True))[
+        "salary"].to_dict()
+    for i in range(2003, 2023):
+        if i not in vacancies_years:
+            vacancies_years[i] = 0
+    return dict(sorted(vacancies_years.items()))
+
+
+def count_amount_of_each_value(value_name, vacanciesname):
+    values = vacanciesname[value_name]
+    all_values = [value for value in values]
+    counter = Counter(all_values)
+    if value_name != "area_name":
+        for i in range(2003, 2023):
+            if i not in counter:
+                counter[i] = 0
+    return dict(sorted(counter.items()))

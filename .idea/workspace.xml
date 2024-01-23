@@ -4,11 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6c0d0e7-a76c-40ec-a5c3-d15d4d89442a" name="Changes" comment="комит для нового сайта">
+    <list default="true" id="e6c0d0e7-a76c-40ec-a5c3-d15d4d89442a" name="Changes" comment="закоментированно чтобы не изпользовать матплотлиб">
+      <change afterPath="$PROJECT_DIR$/geography/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geography/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geography/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geography/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geography/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geography/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relevance/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relevance/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relevance/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relevance/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relevance/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relevance/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relevance/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoProject/create_bargraph.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject/create_bargraph.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoProject/create_bargraph.py" beforeDir="false" afterPath="$PROJECT_DIR$/relevance/create_bargraph.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoProject/databseconnect.py" beforeDir="false" afterPath="$PROJECT_DIR$/geography/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoProject/save_db.py" beforeDir="false" afterPath="$PROJECT_DIR$/geography/save_db.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/djangoProject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/djangoProject/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/hello/admin.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,12 +51,12 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "CerafimD"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;CerafimD&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -59,35 +76,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Django Server.djangoProject.executor": "Run",
-    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "django.template.preview.state": "SHOW_EDITOR",
-    "git-widget-placeholder": "Rebasing jjj",
-    "last_opened_file_path": "C:/Users/danil/PycharmProjects/djangoProject/resources",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Django Server.djangoProject.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Rebasing jjj&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/danil/PycharmProjects/djangoProject/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\danil\PycharmProjects\djangoProject\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\danil\PycharmProjects\djangoProject\relevance" />
+      <recent name="C:\Users\danil\PycharmProjects\djangoProject\geography" />
       <recent name="C:\Users\danil\PycharmProjects\djangoProject\static" />
       <recent name="C:\Users\danil\PycharmProjects\djangoProject\img" />
       <recent name="C:\Users\danil\PycharmProjects\djangoProject\resources" />
-      <recent name="C:\Users\danil\PycharmProjects\djangoProject" />
     </key>
   </component>
   <component name="RunManager">
@@ -143,6 +161,7 @@
       <workItem from="1705746906251" duration="13186000" />
       <workItem from="1705764275520" duration="1593000" />
       <workItem from="1705837965816" duration="1060000" />
+      <workItem from="1706008386188" duration="4224000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -208,7 +227,23 @@
       <option name="project" value="LOCAL" />
       <updated>1705848392014</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="закоментированно чтобы не изпользовать матплотлиб">
+      <option name="closed" value="true" />
+      <created>1705853152523</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1705853152523</updated>
+    </task>
+    <task id="LOCAL-00010" summary="закоментированно чтобы не изпользовать матплотлиб">
+      <option name="closed" value="true" />
+      <created>1705853188240</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1705853188240</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,7 +280,8 @@
     <MESSAGE value="попытка&#10;8" />
     <MESSAGE value="9" />
     <MESSAGE value="комит для нового сайта" />
-    <option name="LAST_COMMIT_MESSAGE" value="комит для нового сайта" />
+    <MESSAGE value="закоментированно чтобы не изпользовать матплотлиб" />
+    <option name="LAST_COMMIT_MESSAGE" value="закоментированно чтобы не изпользовать матплотлиб" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
